@@ -1,0 +1,13 @@
+create database management;
+use management;
+create table users(userid int primary key auto_increment, name varchar(50) not null, email varchar(70) unique not null, password varchar(70) not null, designation int default 0);
+create table projects(projectid int primary key auto_increment, title varchar(60) not null, description varchar(500));
+create table phases(phaseid int primary key auto_increment, projectid int not null,foreign key (projectid) references projects(projectid), name varchar(50));
+create table user_project(projectid int not null, userid int not null, foreign key (projectid) references projects(projectid), foreign key (userid) references users(userid));
+create table task(taskid int primary key auto_increment, title varchar(50) not null, projectid int not null, foreign key (projectid) references projects(projectid), priority varchar(30) not null, cost int not null, status varchar(30) not null default 'Pending', duedate date, assigned_to int not null);
+alter table users auto_increment=1000;
+alter table projects auto_increment = 2000;
+alter table phases auto_increment = 100;
+alter table task auto_increment=10000;
+alter table task add column phaseid int;
+alter table task add foreign key(phaseid) references phases(phaseid);
