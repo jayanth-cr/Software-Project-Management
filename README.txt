@@ -10,7 +10,7 @@ Background Image :
 
 External Jars : 
 	
-	Copy all the files in the '02 - External Jars directory' and place them inside 'C:\Program Files\Java\jre\lib\ext'.(This location may vary in your system. Regardless, place these files inside 'Java\jre\lib\ext'
+	Copy all the files in the '02 - External Jars directory' and place them inside 'C:\Program Files\Java\jre\lib\ext'.(The location of Java may vary in your system. Regardless, place these files inside 'Java\jre\lib\ext')
 	
 Database : 
 	
