@@ -21,6 +21,6 @@ Database :
 		
 	In hibernate.cfg, give your respective username and its password in the following places : 
 			
-		<property name="connection.username">USERNAME</property>
-        	<property name="connection.password">PASSWORD</property>
+		<property name="connection.username">YOUR MYSQL USERNAME</property>
+        	<property name="connection.password">YOUR MYSQL PASSWORD</property>
 
