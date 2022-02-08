@@ -1,7 +1,6 @@
 Description :
 
-	A Java Desktop Application in which we can create projects, add members to the project, create phases, create tasks, assign tasks to people and track their
-	progress.
+	A Java Desktop Application in which we can create projects, add members to the project, create phases, create tasks, assign tasks to people and track their progress.
 
 Background Image : 
 
