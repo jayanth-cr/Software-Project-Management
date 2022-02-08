@@ -4,7 +4,7 @@ Description :
 
 Background Image : 
 
-	Background Image can be changed by specifying the absolute path of the image ( without quotes ) in 'path.txt' file in '03 - Backgound Image' directory.
+	Background Image can be changed by specifying the absolute path of the image ( without quotes ) in 'path.txt' file in '03 - Background Image' directory.
 	
 	Use double slash in the path if you find difficulties in displaying the image E.g : E:\\SoftwareProjectManagementSystem\\03 - Background Image\\bg.png
 
