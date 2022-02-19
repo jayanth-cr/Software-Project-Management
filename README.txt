@@ -20,4 +20,6 @@ Database :
 			
 		<property name="connection.username">YOUR MYSQL USERNAME</property>
         	<property name="connection.password">YOUR MYSQL PASSWORD</property>
+			
+	Run all the commands in DB.txt file present in the folder '04 - DB Commands'
 
